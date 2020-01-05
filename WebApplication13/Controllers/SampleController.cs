@@ -12,5 +12,9 @@ namespace WebApplication13.Controllers
         {
             return View();
         }
+        public IActionResult SampleDemo()
+        {
+            return View();
+        }
     }
 }
