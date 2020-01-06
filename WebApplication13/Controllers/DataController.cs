@@ -15,7 +15,9 @@ namespace WebApplication13.Controllers
         {
             return View();
         }
-        
+
+       
+
         public IActionResult Data()
         {
             var userId = _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
